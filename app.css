@@ -1,0 +1,51 @@
+.card-chat .card-body {
+    overflow-wrap: break-word;
+    height: 400px;
+    overflow: auto;
+}
+
+.chat-history {
+    padding: 5px;
+}
+
+.chat-history ul {
+    padding: 0
+}
+
+.chat-history ul li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.chat-history ul li:last-child {
+    margin-bottom: 0px
+}
+
+.chat-history .message {
+    display: inline-block;
+    position: relative;
+    color: #444;
+    padding: 5px 10px;
+    border-radius: 8px;
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.chat-history .my-message {
+    background: #e8f1f3;
+    text-align: right
+}
+
+.chat-history .other-message {
+    background: #efefef9f;
+    text-align: right
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0
+}
